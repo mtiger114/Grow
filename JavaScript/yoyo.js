@@ -47,6 +47,19 @@ style.innerHTML = `
   opacity: 1;
 }
 
+.menuOP {
+  margin: 10px 0;
+  cursor: pointer;
+  color: #1a1a1a;
+  text-decoration: none;
+  padding: 10px 30px;
+  transition: 0.3s;
+}
+
+.menuOP:hover {
+  background-color: #f7f7f7;
+}
+
 .menu-option {
   margin: 10px 0;
   cursor: pointer;
