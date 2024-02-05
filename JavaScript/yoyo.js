@@ -18,7 +18,6 @@ style.innerHTML = `
 }
 
 #Smenu div {
-  width: 30px;
   height: 5px;
   background-color: #3498db;
   transition: 0.3s;
