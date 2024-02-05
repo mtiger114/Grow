@@ -12,11 +12,9 @@ style.innerHTML = `
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: transform 0.3s;
 }
 
 #Smenu.active {
-  transform: rotate(90deg);
 }
 
 #Smenu div {
@@ -40,12 +38,14 @@ style.innerHTML = `
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s;
-  transform-origin: top right;
+  transition: transform 1s, opacity 0.5s;
+  transform: translateY(-100%);
+  opacity: 0;
 }
 
 #Soverlay.active {
-  transform: translateX(-100%);
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .menu-option {
@@ -76,10 +76,11 @@ style.innerHTML = `
   border-radius: 5px;
   transition: 0.3s;
 }
+
 .close-btn:hover {
   background-color: #c91705;
 }
-  `;
+`;
 
 // Append the style element to the document head
 document.head.appendChild(style);
@@ -88,8 +89,12 @@ menuButton.addEventListener("click", openMenu);
 
 function openMenu() {
   overlay.style.display = "flex";
+  setTimeout(() => {
+    overlay.classList.add("active");
+  }, 50); // Delay the class addition to allow the fadeIn effect
 }
 
 function closeMenu() {
   overlay.style.display = "none";
+  overlay.classList.remove("active");
 }
