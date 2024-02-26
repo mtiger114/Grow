@@ -94,6 +94,9 @@
 .m-20 {
   margin: 20px;
 }
+.m-40 {
+  margin: 40px;
+}
 .mt-0 {
   margin-top: 0;
 }
@@ -217,6 +220,9 @@
 .fw-b {
   font-weight: bold;
 }
+.ln {
+  line-height: 25;
+}
 /* boeder  */
 .b-none {
   border: none;
@@ -239,7 +245,7 @@
     display: none;
   }
 }
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .txt-c-mobile {
     text-align: center;
   }
@@ -257,6 +263,11 @@
   align-items: center;
   justify-content: space-between;
 }
+.evenly-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
 .center-flex {
   display: flex;
   align-items: center;
@@ -267,7 +278,7 @@
   border-radius: 6px;
 }
 .capital {
-  text-transform:capitalize;
+  text-transform: capitalize;
 }
 .c-alt:hover {
   transition: 0.3s;
