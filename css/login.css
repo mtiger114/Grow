@@ -32,6 +32,10 @@ body {
   align-items: center;
 }
 
+.logo {
+  border-radius: 50%;
+}
+
 .login-content {
   display: flex;
   justify-content: flex-start;
@@ -39,8 +43,13 @@ body {
   text-align: center;
 }
 
-.img img {
+/* .img img {
   width: 500px;
+} */
+
+.img img {
+  width: 700px;
+  border-radius: 50px;
 }
 
 form {
