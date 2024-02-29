@@ -223,6 +223,9 @@
 .ln {
   line-height: 25;
 }
+.ln-smol {
+  line-height: 2;
+}
 /* boeder  */
 .b-none {
   border: none;

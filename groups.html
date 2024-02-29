@@ -79,388 +79,71 @@
       </div>
       <!-- start content  -->
       <div class="content w-full hide-flow">
-        <!-- start head  -->
-        <div class="head bg-white p-15 between-flex">
-          <div class="search p-relative">
-            <input class="p-10 border-cc rad-10" type="search" placeholder="type a kyeword">
-          </div>
-          <div class="icons d-flex align-c">
-            <span class="">
-              <!-- rings parent class => "notify p-relative" -->
-              <!-- <i class="fa-regular fa-bell fa-lg"></i> -->
-              <a href="./login.html" class="menuOP">Login</a>
-              <a href="./register.html" class="menuOP">Register</a>
-            </span>
-            <div id="Smenu">
-              <img class="minLogo" src="imgs/boy_tiger.png" alt="">
-            </div>
-            <div id="Soverlay">
-              <div id="menu-content">
-                <a href="./login.html" class="menu-option">Login</a>
-                <a href="./register.html" class="menu-option">Register</a>
-                <a href="./dashboard.html" class="menu-option">dashboard</a>
-                <button class="close-btn" onclick="closeMenu()">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- start courses  -->
-        <h1 class="p-relative">Files</h1>
-        <div class="files-page d-flex m-20 g-20">
-          <div class="files-stats bg-white p-20 rad-10">
-            <h2 class="mt-0 mb-15 txt-c-mobile">Files Statistics</h2>
-            <div class="d-flex border-cc align-c rad-6 p-10 mb-15 fs-13">
-              <i class="fa-regular fa-file-pdf fa-lg red c-red center-flex icon"></i>
-              <div class="info">
-                <span>PDF Files</span>
-                <span class="d-block mt-5">130</span>
-              </div>
-              <div class="size c-gray">1.5GB</div>
-            </div>
-            <div class="d-flex border-cc align-c rad-6 p-10 mb-15 fs-13">
-              <i class="fa-regular fa-images fa-lg green c-green center-flex icon"></i>
-              <div class="info">
-                <span>Images</span>
-                <span class="d-block mt-5">2000</span>
-              </div>
-              <div class="size c-gray">2.0GB</div>
-            </div>
-            <div class="d-flex border-cc align-c rad-6 p-10 mb-15 fs-13">
-              <i class="fa-solid fa-file-csv fa-lg orange c-orange center-flex icon"></i>
-              <div class="info">
-                <span>CSV Files</span>
-                <span class="d-block mt-5">114</span>
-              </div>
-              <div class="size c-gray">3.5GB</div>
-            </div>
-            <div class="d-flex border-cc align-c rad-6 p-10 mb-15 fs-13">
-              <i class="fa-regular fa-file-word fa-lg blue c-blue center-flex icon"></i>
-              <div class="info">
-                <span>Word Files</span>
-                <span class="d-block mt-5">90</span>
-              </div>
-              <div class="size c-gray">1.9GB</div>
-            </div>
-            <a class="upload bg-blue c-white fs-13 rad-6 d-block w-fit" href="#">
-              <i class="fa-solid fa-angles-up mr-10"></i>
-              Upload
-            </a>
-          </div>
-          <div class="files-content d-grid g-20">
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/txt.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-file.txt</div>
-              <p class="c-gray fs-13">Tiger</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>20/6/2020</span>
-                <span>5.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/pdf.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-avi.pdf</div>
-              <p class="c-gray fs-13">Admin</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>11/7/2021</span>
-                <span>8.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/png.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-avi.png</div>
-              <p class="c-gray fs-13">ssd</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>11/7/2021</span>
-                <span>8.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/eps.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-avi.eps</div>
-              <p class="c-gray fs-13">sss</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>11/7/2021</span>
-                <span>8.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/zip.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-avi.zip</div>
-              <p class="c-gray fs-13">zzz</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>11/7/2021</span>
-                <span>8.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/sql.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-avi.sql</div>
-              <p class="c-gray fs-13">rrr</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>11/7/2021</span>
-                <span>8.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/txt.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-avi.txt</div>
-              <p class="c-gray fs-13">Adtxtmin</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>11/7/2021</span>
-                <span>8.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/psd.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-avi.psd</div>
-              <p class="c-gray fs-13">Admin</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>11/7/2021</span>
-                <span>8.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/png.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-avi.png</div>
-              <p class="c-gray fs-13">png slayer</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>4/3/2021</span>
-                <span>8.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/eps.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-avi.eps</div>
-              <p class="c-gray fs-13">epso</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>11/7/2021</span>
-                <span>8.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/zip.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-avi.zip</div>
-              <p class="c-gray fs-13">sse</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>11/7/2021</span>
-                <span>8.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/psd.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-avi.psd</div>
-              <p class="c-gray fs-13">ra</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>11/7/2021</span>
-                <span>8.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/eps.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-avi.eps</div>
-              <p class="c-gray fs-13">RR</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>11/7/2021</span>
-                <span>8.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/txt.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-avi.txt</div>
-              <p class="c-gray fs-13">Admin</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>11/7/2021</span>
-                <span>8.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/avi.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-avi.svg</div>
-              <p class="c-gray fs-13">Admin</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>11/7/2021</span>
-                <span>8.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/avi.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-avi.pdf</div>
-              <p class="c-gray fs-13">Admin</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>11/7/2021</span>
-                <span>8.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/sql.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-avi.svg</div>
-              <p class="c-gray fs-13">Admin</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>8/9/2021</span>
-                <span>4.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/avi.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-ss.avi</div>
-              <p class="c-gray fs-13">AAA</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>10/2/2021</span>
-                <span>2.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/dll.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-avi.dll</div>
-              <p class="c-gray fs-13">Admin</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>1/3/2021</span>
-                <span>8.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/png.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-jj.png</div>
-              <p class="c-gray fs-13">T</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>11/7/2021</span>
-                <span>8.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/zip.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-files.zip</div>
-              <p class="c-gray fs-13">Tiger</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>4/4/2021</span>
-                <span>4.4GB</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/txt.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-txt.txt</div>
-              <p class="c-gray fs-13">lee</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>4/7/2021</span>
-                <span>2.5MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/psd.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-my.psd</div>
-              <p class="c-gray fs-13">Guts</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>11/11/2022</span>
-                <span>8.0MG</span>
-              </div>
-            </div>
-
-            <div class="file bg-white rad-10 p-10 ">
-              <i class="fa-solid fa-download c-gray p-absolute"></i>
-              <div class="icon txt-c">
-                <img class="mt-15 mb-15" src="imgs/pdf.svg" alt="">
-              </div>
-              <div class="txt-c mb-10 fs-14">my-pdf.pdf</div>
-              <p class="c-gray fs-13">Tiger</p>
-              <div class="info fs-13 c-gray between-flex mt-10 pt-10">
-                <span>11/12/2021</span>
-                <span>1.5MG</span>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
+                  <!-- groups -->
+                  <div class="thePost">
+                    <!-- group -->
+                    <div class="posts bg-white p-20 rad-10 p-relative">
+                      <h2 class="mt-0 mb-25">HeyHey</h2>
+                      <img class="rad-10 hide-mobile" src="./imgs/news-04.png" width="100%" height="300px" alt="banner">
+                      <div class=" fs-15 txt-c-mobile pt-20 pb-20 mt-20 mb-20 ln-smol">
+                        MIX Max Group .. its free to join .. we are talking about every thing ?
+                        every where ? ummm.. idk rlly XD 
+                        make sure to read our rules first .. and dont foorget to follow our page too 
+                      </div>
+                      <div class="post-stats between-flex c-gray">
+                        <div>
+                          <i class="fa-regular fa-hand"></i>
+                          <span>2.8k</span>
+                        </div>
+                        <div>
+                          <i class="fa-regular fa-user"></i>
+                          <span>500</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- group -->
+                    <div class="posts bg-white p-20 rad-10 p-relative">
+                      <h2 class="mt-0 mb-25">HeyHey</h2>
+                      <img class="rad-10 hide-mobile" src="./imgs/news-03.png" width="100%" height="300px" alt="banner">
+                      <div class=" fs-15 txt-c-mobile pt-20 pb-20 mt-20 mb-20 ln-smol">
+                        MIX Max Group .. its free to join .. we are talking about every thing ?
+                        every where ? ummm.. idk rlly XD 
+                        make sure to read our rules first .. and dont foorget to follow our page too 
+                      </div>
+                      <div class="post-stats between-flex c-gray">
+                        <div>
+                          <i class="fa-regular fa-hand"></i>
+                          <span>2.8k</span>
+                        </div>
+                        <div>
+                          <i class="fa-regular fa-user"></i>
+                          <span>500</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- group -->
+                    <div class="posts bg-white p-20 rad-10 p-relative">
+                      <h2 class="mt-0 mb-25">HeyHey</h2>
+                      <img class="rad-10 hide-mobile" src="./imgs/news-04.png" width="100%" height="300px" alt="banner">
+                      <div class=" fs-15 txt-c-mobile pt-20 pb-20 mt-20 mb-20 ln-smol">
+                        MIX Max Group .. its free to join .. we are talking about every thing ?
+                        every where ? ummm.. idk rlly XD 
+                        make sure to read our rules first .. and dont foorget to follow our page too 
+                      </div>
+                      <div class="post-stats between-flex c-gray">
+                        <div>
+                          <i class="fa-regular fa-hand"></i>
+                          <span>2.8k</span>
+                        </div>
+                        <div>
+                          <i class="fa-regular fa-user"></i>
+                          <span>500</span>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="moro">More..</span>
+                  </div>
+      </div>
     <script src="./JavaScript/yoyo.js"></script>
   </body>
 </html>

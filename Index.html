@@ -1,24 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/framework.css">
-    <link rel="stylesheet" href="css/dash.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/dash.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <a class="active d-flex align-c fs-14 rad-6 p-10" href="./dashboard.html">
-      <i class="fa-regular fa-chart-bar fa-fw"></i>
-      <span class="hide-mobile">Dashboard</span>
-    </a>
+    <div class="page d-flex">
+      <!-- start sidebar-->
+      <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="p-relative txt-c mt-0">Grow</h3>
+        <ul>
+          <li>
+            <a
+              class="active d-flex align-c fs-14 rad-6 p-10"
+              href="profile.html"
+            >
+              <!-- <img class="mmLogo" src="imgs/boy_tiger.png" alt="mmlogo"> -->
+              👨
+              <span class="hide-mobile">View your profile</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex align-c fs-14 rad-6 p-10" href="challenge.html">
+              ✨
+              <span class="hide-mobile">Challenge</span>
+            </a>
+          </li>
+          <span class="seps"></span>
+          <li>
+            <a class="d-flex align-c fs-14 rad-6 p-10" href="messenger.html">
+              📨
+              <span class="hide-mobile">Messenger</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex align-c fs-14 rad-6 p-10" href="friends.html">
+              👥
+              <span class="hide-mobile">Friends</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex align-c fs-14 rad-6 p-10" href="groups.html">
+              👪
+              <span class="hide-mobile">Groups</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex align-c fs-14 rad-6 p-10" href="watch.html">
+              🎥
+              <span class="hide-mobile">Watch</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex align-c fs-14 rad-6 p-10" href="events.html">
+              📅
+              <span class="hide-mobile">Events</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex align-c fs-14 rad-6 p-10" href="market.html">
+              🏪
+              <span class="hide-mobile">Market</span>
+            </a>
+          </li>
+          <span class="seps"></span>
+          <li>
+            <a class="d-flex align-c fs-14 rad-6 p-10" href="settings.html">
+              🔩
+              <span class="hide-mobile">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex align-c fs-14 rad-6 p-10" href="manager.html">
+              🔧
+              <span class="hide-mobile">Manager</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!--start content-->
+      <div class="content w-full hide-flow">
+        <!--start head-->
+        <div class="head bg-white p-15 between-flex">
+          <div class="btn p-relative">
+            <input class="p-10 border-cc rad-10" type="button" />
+          </div>
+          <div class="icons d-flex align-c">
+            <span class="">
+              <a href="./login.html" class="menuOP">Login</a>
+              <a href="./register.html" class="menuOP">Register</a>
+            </span>
+            <div id="Smenu">
+              <img class="minLogo" src="imgs/boy_tiger.png" alt="" />
+            </div>
+            <div id="Soverlay">
+              <div id="menu-content">
+                <a href="./login.html" class="menu-option">Login</a>
+                <a href="./register.html" class="menu-option">Register</a>
+                <a href="./dashboard.html" class="menu-option">dashboard</a>
+                <button class="close-btn" onclick="closeMenu()">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--start Dashboard-->
+        <div class="wrapper">
+          <!-- posts -->
+          <div class="thePost p-10">
+            <!-- post -->
+            <div class="posts bg-white p-20 rad-10 p-relative">
+              <h2 class="mt-0">Hello World</h2>
+              <div class="ln-smol">
+                Hello World Hello World Hello World Hello World Hello World
+                Hello World Hello World Hello World Hello World Hello World
+                Hello World Hello World Hello World Hello World Hello World
+                Hello World Hello World Hello World Hello World Hello World
+                Hello World Hello World Hello World Hello World Hello World
+                Hello World Hello World Hello World Hello World Hello World
+                Hello World Hello World Hello World Hello World Hello World
+                Hello World Hello World Hello World Hello World Hello World
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./JavaScript/yoyo.js"></script>
   </body>
 </html>
-
-
